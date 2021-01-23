@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use iiiphr\shamsi_calendar;
+use iiiphr\shamsi_calendar\CalendarController;
 
-class temp extends Controller
+class temp extends CalendarController
 {
     public function index(){
-        return shamsi_calendar::get_date();
+        return $this->get_date();
     }
 }
