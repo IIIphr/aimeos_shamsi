@@ -13,7 +13,50 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Aimeos shop'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Enable multi-tenancy features
+    |--------------------------------------------------------------------------
+    |
+    | Activates routing for multiple shops (SaaS or marketplace). By default,
+    | the account name is used in the URL but custom domains or subdomains
+    | are also possible by using a different route configuration in the
+    | ./config/shop.php file:
+    | https://aimeos.org/docs/latest/laravel/customize/#adapt-the-routing
+    |
+    */
+
+    'shop_multishop' => env('SHOP_MULTISHOP', false),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Enable merchant registration
+    |--------------------------------------------------------------------------
+    |
+    | Activates self-registration for new sellers. They can register themselves
+    | to get a new account and shop. They only need to confirm their e-mail and
+    | can create and sell products immediately.
+    |
+    */
+
+    'shop_registration' => env('SHOP_REGISTRATION', false),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Permission level for new merchants
+    |--------------------------------------------------------------------------
+    |
+    | Possible values: "admin" and "editor"
+    | Administrators can change everything in their own shop including payments
+    | and delivery while editors can only manage content like products, etc.
+    | The available panels for both can be configured:
+    | https://aimeos.org/docs/latest/admin/jqadm/implement-panels/#permissions
+    |
+    */
+
+    'shop_permission' => env('SHOP_PERMISSION', 'admin'),
 
     /*
     |--------------------------------------------------------------------------

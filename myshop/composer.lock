@@ -8,26 +8,26 @@
     "packages": [
         {
             "name": "aimeos/ai-admin-jqadm",
-            "version": "2020.10.10",
+            "version": "2020.10.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-admin-jqadm.git",
-                "reference": "f7b1753512a76380ef30f0663c2241f13caf91a1"
+                "reference": "63526c83b16c5500adb86512adfa1ed2fcb4e19d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-admin-jqadm/zipball/f7b1753512a76380ef30f0663c2241f13caf91a1",
-                "reference": "f7b1753512a76380ef30f0663c2241f13caf91a1",
+                "url": "https://api.github.com/repos/aimeos/ai-admin-jqadm/zipball/63526c83b16c5500adb86512adfa1ed2fcb4e19d",
+                "reference": "63526c83b16c5500adb86512adfa1ed2fcb4e19d",
                 "shasum": ""
             },
             "require": {
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1"
+                "php": "~7.1||~8.0"
             },
             "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
+                "nyholm/psr7-server": "~1.0",
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -53,30 +53,30 @@
                 "bootstrap",
                 "extension"
             ],
-            "time": "2020-12-15T09:41:29+00:00"
+            "time": "2021-01-21T10:20:55+00:00"
         },
         {
             "name": "aimeos/ai-admin-jsonadm",
-            "version": "2020.10.4",
+            "version": "2020.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-admin-jsonadm.git",
-                "reference": "b8f9326f34bc32f9619be54de7da0d1a98a733ff"
+                "reference": "e5ce503da03a8a2dc0c1bef9b9b48659e3dd15b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-admin-jsonadm/zipball/b8f9326f34bc32f9619be54de7da0d1a98a733ff",
-                "reference": "b8f9326f34bc32f9619be54de7da0d1a98a733ff",
+                "url": "https://api.github.com/repos/aimeos/ai-admin-jsonadm/zipball/e5ce503da03a8a2dc0c1bef9b9b48659e3dd15b0",
+                "reference": "e5ce503da03a8a2dc0c1bef9b9b48659e3dd15b0",
                 "shasum": ""
             },
             "require": {
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1"
+                "php": "~7.1||~8.0"
             },
             "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
+                "nyholm/psr7-server": "~1.0",
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -99,20 +99,20 @@
                 "extension",
                 "json api"
             ],
-            "time": "2020-12-09T17:24:42+00:00"
+            "time": "2021-01-21T10:11:32+00:00"
         },
         {
             "name": "aimeos/ai-client-html",
-            "version": "2020.10.13",
+            "version": "2020.10.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-client-html.git",
-                "reference": "8f9db0cddc72c7314cd8f5f4a50cd5ac705d0d79"
+                "reference": "a8137b95beebeb423cdcfad69ee2355eddc0d397"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-client-html/zipball/8f9db0cddc72c7314cd8f5f4a50cd5ac705d0d79",
-                "reference": "8f9db0cddc72c7314cd8f5f4a50cd5ac705d0d79",
+                "url": "https://api.github.com/repos/aimeos/ai-client-html/zipball/a8137b95beebeb423cdcfad69ee2355eddc0d397",
+                "reference": "a8137b95beebeb423cdcfad69ee2355eddc0d397",
                 "shasum": ""
             },
             "require": {
@@ -120,12 +120,12 @@
                 "aimeos/ai-controller-jobs": "2020.10.*",
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1",
+                "php": "~7.1||~8.0",
                 "tecnickcom/tcpdf": "~6.3"
             },
             "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
+                "nyholm/psr7-server": "~1.0",
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -152,31 +152,31 @@
                 "extension",
                 "html"
             ],
-            "time": "2020-12-15T10:15:31+00:00"
+            "time": "2021-01-21T10:11:49+00:00"
         },
         {
             "name": "aimeos/ai-client-jsonapi",
-            "version": "2020.10.6",
+            "version": "2020.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-client-jsonapi.git",
-                "reference": "35cad8e007c0dbed2bee417f812f1f6d8078c547"
+                "reference": "80ff11431fd61086b7784e6bb7eda4624bd51791"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-client-jsonapi/zipball/35cad8e007c0dbed2bee417f812f1f6d8078c547",
-                "reference": "35cad8e007c0dbed2bee417f812f1f6d8078c547",
+                "url": "https://api.github.com/repos/aimeos/ai-client-jsonapi/zipball/80ff11431fd61086b7784e6bb7eda4624bd51791",
+                "reference": "80ff11431fd61086b7784e6bb7eda4624bd51791",
                 "shasum": ""
             },
             "require": {
                 "aimeos/ai-controller-frontend": "2020.10.*",
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1"
+                "php": "~7.1||~8.0"
             },
             "require-dev": {
-                "nyholm/psr7-server": "^0.4.1",
-                "phpunit/phpunit": "~7.0||~8.0"
+                "nyholm/psr7-server": "~1.0",
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -200,29 +200,29 @@
                 "extension",
                 "json"
             ],
-            "time": "2020-12-09T17:24:42+00:00"
+            "time": "2021-01-21T10:12:09+00:00"
         },
         {
             "name": "aimeos/ai-controller-frontend",
-            "version": "2020.10.4",
+            "version": "2020.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-controller-frontend.git",
-                "reference": "9a92a2bd2a83a50f0867db320b6c0cbcd4af058d"
+                "reference": "4f334dc5c5c678c4cf7f257709775edc19dafb3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-controller-frontend/zipball/9a92a2bd2a83a50f0867db320b6c0cbcd4af058d",
-                "reference": "9a92a2bd2a83a50f0867db320b6c0cbcd4af058d",
+                "url": "https://api.github.com/repos/aimeos/ai-controller-frontend/zipball/4f334dc5c5c678c4cf7f257709775edc19dafb3a",
+                "reference": "4f334dc5c5c678c4cf7f257709775edc19dafb3a",
                 "shasum": ""
             },
             "require": {
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1"
+                "php": "~7.1||~8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -245,29 +245,29 @@
                 "extension",
                 "frontend"
             ],
-            "time": "2020-12-09T17:24:42+00:00"
+            "time": "2021-01-21T10:12:29+00:00"
         },
         {
             "name": "aimeos/ai-controller-jobs",
-            "version": "2020.10.7",
+            "version": "2020.10.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-controller-jobs.git",
-                "reference": "a895c21be29167846e3e121e7ad87b8e653172f5"
+                "reference": "4da025b9d621b5a4009a1a5b7a7bed6ef8ef11ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-controller-jobs/zipball/a895c21be29167846e3e121e7ad87b8e653172f5",
-                "reference": "a895c21be29167846e3e121e7ad87b8e653172f5",
+                "url": "https://api.github.com/repos/aimeos/ai-controller-jobs/zipball/4da025b9d621b5a4009a1a5b7a7bed6ef8ef11ae",
+                "reference": "4da025b9d621b5a4009a1a5b7a7bed6ef8ef11ae",
                 "shasum": ""
             },
             "require": {
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1"
+                "php": "~7.1||~8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -292,29 +292,29 @@
                 "extension",
                 "jobs"
             ],
-            "time": "2020-12-09T17:24:42+00:00"
+            "time": "2021-01-21T10:12:45+00:00"
         },
         {
             "name": "aimeos/ai-gettext",
-            "version": "2020.10.1",
+            "version": "2020.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-gettext.git",
-                "reference": "924915aba79131f39828a2131a5ebcb1c0b9e741"
+                "reference": "7153dd4242ef15a158ae24349aa47530fe040e04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-gettext/zipball/924915aba79131f39828a2131a5ebcb1c0b9e741",
-                "reference": "924915aba79131f39828a2131a5ebcb1c0b9e741",
+                "url": "https://api.github.com/repos/aimeos/ai-gettext/zipball/7153dd4242ef15a158ae24349aa47530fe040e04",
+                "reference": "7153dd4242ef15a158ae24349aa47530fe040e04",
                 "shasum": ""
             },
             "require": {
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1"
+                "php": "~7.1||~8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -337,20 +337,20 @@
                 "gettext",
                 "performance"
             ],
-            "time": "2020-10-06T07:52:36+00:00"
+            "time": "2021-01-20T09:37:11+00:00"
         },
         {
             "name": "aimeos/ai-laravel",
-            "version": "2020.10.3",
+            "version": "2020.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-laravel.git",
-                "reference": "01ab414f2d2a6d52beea93b136f3a40650ff5584"
+                "reference": "2202aaed2b94da35b242d32a93456918597f17f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-laravel/zipball/01ab414f2d2a6d52beea93b136f3a40650ff5584",
-                "reference": "01ab414f2d2a6d52beea93b136f3a40650ff5584",
+                "url": "https://api.github.com/repos/aimeos/ai-laravel/zipball/2202aaed2b94da35b242d32a93456918597f17f0",
+                "reference": "2202aaed2b94da35b242d32a93456918597f17f0",
                 "shasum": ""
             },
             "require": {
@@ -358,10 +358,10 @@
                 "composer/installers": "^1.0",
                 "laravel/framework": "~5.5||~6.0||~7.0||~8.0",
                 "nyholm/psr7": "~1.2",
-                "php": "~7.1"
+                "php": "~7.1||~8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -385,30 +385,30 @@
                 "laravel",
                 "shop"
             ],
-            "time": "2020-12-19T08:50:51+00:00"
+            "time": "2021-01-19T09:49:42+00:00"
         },
         {
             "name": "aimeos/ai-swiftmailer",
-            "version": "2020.10.1",
+            "version": "2020.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/ai-swiftmailer.git",
-                "reference": "c8c2412a6c4edcf067d881d806341d3609c43ee9"
+                "reference": "9d2adc33b377af8ea344f31cca7b255c745ede4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/ai-swiftmailer/zipball/c8c2412a6c4edcf067d881d806341d3609c43ee9",
-                "reference": "c8c2412a6c4edcf067d881d806341d3609c43ee9",
+                "url": "https://api.github.com/repos/aimeos/ai-swiftmailer/zipball/9d2adc33b377af8ea344f31cca7b255c745ede4f",
+                "reference": "9d2adc33b377af8ea344f31cca7b255c745ede4f",
                 "shasum": ""
             },
             "require": {
                 "aimeos/aimeos-core": "2020.10.*",
                 "composer/installers": "^1.0",
-                "php": "~7.1",
+                "php": "~7.1||~8.0",
                 "swiftmailer/swiftmailer": "~5.0||~6.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~7.0||~8.0"
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "aimeos-extension",
             "autoload": {
@@ -433,20 +433,20 @@
                 "shop",
                 "swiftmailer"
             ],
-            "time": "2020-10-06T07:52:36+00:00"
+            "time": "2021-01-20T09:39:25+00:00"
         },
         {
             "name": "aimeos/aimeos-core",
-            "version": "2020.10.10",
+            "version": "2020.10.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/aimeos-core.git",
-                "reference": "5c9672aa674a556e37b97958785ec436596c4e75"
+                "reference": "f10011f940c55617cea1d76296ad7dde722daaac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/aimeos-core/zipball/5c9672aa674a556e37b97958785ec436596c4e75",
-                "reference": "5c9672aa674a556e37b97958785ec436596c4e75",
+                "url": "https://api.github.com/repos/aimeos/aimeos-core/zipball/f10011f940c55617cea1d76296ad7dde722daaac",
+                "reference": "f10011f940c55617cea1d76296ad7dde722daaac",
                 "shasum": ""
             },
             "require": {
@@ -463,7 +463,7 @@
                 "ext-pdo": "*",
                 "ext-zip": "*",
                 "nyholm/psr7": "^1.2",
-                "php": "~7.1",
+                "php": "~7.1||^8.0.1",
                 "psr/http-message": "~1.0",
                 "tecnickcom/tcpdf": "~6.3",
                 "voku/portable-ascii": "^1.4"
@@ -471,7 +471,7 @@
             "require-dev": {
                 "phing/phing": "~2.4",
                 "php-coveralls/php-coveralls": "~2.0",
-                "phpunit/phpunit": "~7.0||~8.0",
+                "phpunit/phpunit": "~7.0||~8.0||~9.0",
                 "squizlabs/php_codesniffer": "~3.0"
             },
             "type": "library",
@@ -507,20 +507,20 @@
                 "portal",
                 "shop"
             ],
-            "time": "2020-12-15T09:38:59+00:00"
+            "time": "2021-01-21T10:08:38+00:00"
         },
         {
             "name": "aimeos/aimeos-laravel",
-            "version": "2020.10.4",
+            "version": "2020.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/aimeos-laravel.git",
-                "reference": "d7a3070c77bdc8a5a3a0d014587bcd2682fc279c"
+                "reference": "7428f9c6a98bdc84fafac1e156c22dce81e8b648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/aimeos-laravel/zipball/d7a3070c77bdc8a5a3a0d014587bcd2682fc279c",
-                "reference": "d7a3070c77bdc8a5a3a0d014587bcd2682fc279c",
+                "url": "https://api.github.com/repos/aimeos/aimeos-laravel/zipball/7428f9c6a98bdc84fafac1e156c22dce81e8b648",
+                "reference": "7428f9c6a98bdc84fafac1e156c22dce81e8b648",
                 "shasum": ""
             },
             "require": {
@@ -581,20 +581,20 @@
                 "portal",
                 "shop"
             ],
-            "time": "2020-12-11T14:52:50+00:00"
+            "time": "2020-12-22T05:54:20+00:00"
         },
         {
             "name": "aimeos/map",
-            "version": "1.10.2",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aimeos/map.git",
-                "reference": "c82f4e6cb68f6aaefedb9ee8843956f25020bb92"
+                "reference": "2a89e0afec968ec6a8f6773891037e3aa9be5964"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/map/zipball/c82f4e6cb68f6aaefedb9ee8843956f25020bb92",
-                "reference": "c82f4e6cb68f6aaefedb9ee8843956f25020bb92",
+                "url": "https://api.github.com/repos/aimeos/map/zipball/2a89e0afec968ec6a8f6773891037e3aa9be5964",
+                "reference": "2a89e0afec968ec6a8f6773891037e3aa9be5964",
                 "shasum": ""
             },
             "require": {
@@ -602,7 +602,7 @@
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "~2.0",
-                "phpunit/phpunit": "~7.0||~8.0"
+                "phpunit/phpunit": "~7.0||~8.0||~9.0"
             },
             "type": "library",
             "autoload": {
@@ -627,20 +627,20 @@
                 "map",
                 "php"
             ],
-            "time": "2020-11-28T17:27:25+00:00"
+            "time": "2020-12-29T08:58:48+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca"
+                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
-                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
                 "shasum": ""
             },
             "require": {
@@ -651,17 +651,18 @@
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.6.* || 2.0.*@dev",
-                "composer/semver": "1.0.* || 2.0.*@dev",
-                "phpunit/phpunit": "^4.8.36",
-                "sebastian/comparator": "^1.2.4",
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
                 "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-main": "1.x-dev"
                 }
             },
             "autoload": {
@@ -699,6 +700,7 @@
                 "Porto",
                 "RadPHP",
                 "SMF",
+                "Starbug",
                 "Thelia",
                 "Whmcs",
                 "WolfCMS",
@@ -739,6 +741,7 @@
                 "phpbb",
                 "piwik",
                 "ppi",
+                "processwire",
                 "puppet",
                 "pxcms",
                 "reindex",
@@ -760,11 +763,15 @@
                     "type": "custom"
                 },
                 {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/composer/composer",
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-07T06:57:05+00:00"
+            "time": "2021-01-14T11:07:16+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1321,16 +1328,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.24",
+            "version": "2.1.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "ca90a3291eee1538cd48ff25163240695bd95448"
+                "reference": "0dbf5d78455d4d6a41d186da50adc1122ec066f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ca90a3291eee1538cd48ff25163240695bd95448",
-                "reference": "ca90a3291eee1538cd48ff25163240695bd95448",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/0dbf5d78455d4d6a41d186da50adc1122ec066f4",
+                "reference": "0dbf5d78455d4d6a41d186da50adc1122ec066f4",
                 "shasum": ""
             },
             "require": {
@@ -1381,7 +1388,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-14T15:56:27+00:00"
+            "time": "2020-12-29T14:50:06+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1705,16 +1712,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v6.20.7",
+            "version": "v6.20.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "bdc79701b567c5f8ed44d212dd4a261b8300b9c3"
+                "reference": "3464d0232cb75aeadb7b4483f788c1d1a30221d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/bdc79701b567c5f8ed44d212dd4a261b8300b9c3",
-                "reference": "bdc79701b567c5f8ed44d212dd4a261b8300b9c3",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3464d0232cb75aeadb7b4483f788c1d1a30221d4",
+                "reference": "3464d0232cb75aeadb7b4483f788c1d1a30221d4",
                 "shasum": ""
             },
             "require": {
@@ -1850,7 +1857,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-12-08T15:31:27+00:00"
+            "time": "2021-01-21T14:10:27+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2153,16 +2160,16 @@
         },
         {
             "name": "league/mime-type-detection",
-            "version": "1.5.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "353f66d7555d8a90781f6f5e7091932f9a4250aa"
+                "reference": "3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/353f66d7555d8a90781f6f5e7091932f9a4250aa",
-                "reference": "353f66d7555d8a90781f6f5e7091932f9a4250aa",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3",
+                "reference": "3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3",
                 "shasum": ""
             },
             "require": {
@@ -2170,8 +2177,9 @@
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^0.12.36",
-                "phpunit/phpunit": "^8.5.8"
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "phpstan/phpstan": "^0.12.68",
+                "phpunit/phpunit": "^8.5.8 || ^9.3"
             },
             "type": "library",
             "autoload": {
@@ -2200,7 +2208,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-18T11:50:25+00:00"
+            "time": "2021-01-18T20:58:21+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3138,16 +3146,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.2.4",
+            "version": "v6.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e"
+                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
-                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/698a6a9f54d7eb321274de3ad19863802c879fb7",
+                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7",
                 "shasum": ""
             },
             "require": {
@@ -3205,7 +3213,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-08T18:02:06+00:00"
+            "time": "2021-01-12T09:35:59+00:00"
         },
         {
             "name": "symfony/console",
@@ -4086,16 +4094,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41"
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f4ba089a5b6366e453971d3aad5fe8e897b37f41",
-                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/c6c942b1ac76c82448322025e084cadc56048b4e",
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e",
                 "shasum": ""
             },
             "require": {
@@ -4107,7 +4115,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4158,20 +4166,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "c536646fdb4f29104dd26effc2fdcb9a5b085024"
+                "reference": "b34bfb8c4c22650ac080d2662ae3502e5f2f4ae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/c536646fdb4f29104dd26effc2fdcb9a5b085024",
-                "reference": "c536646fdb4f29104dd26effc2fdcb9a5b085024",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/b34bfb8c4c22650ac080d2662ae3502e5f2f4ae6",
+                "reference": "b34bfb8c4c22650ac080d2662ae3502e5f2f4ae6",
                 "shasum": ""
             },
             "require": {
@@ -4183,7 +4191,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4235,20 +4243,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117"
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/3b75acd829741c768bc8b1f84eb33265e7cc5117",
-                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
                 "shasum": ""
             },
             "require": {
@@ -4262,7 +4270,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4319,20 +4327,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "727d1096295d807c309fb01a851577302394c897"
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/727d1096295d807c309fb01a851577302394c897",
-                "reference": "727d1096295d807c309fb01a851577302394c897",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/6e971c891537eb617a00bb07a43d182a6915faba",
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba",
                 "shasum": ""
             },
             "require": {
@@ -4344,7 +4352,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4400,20 +4408,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T17:09:11+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531"
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/39d483bdf39be819deabf04ec872eb0b2410b531",
-                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
                 "shasum": ""
             },
             "require": {
@@ -4425,7 +4433,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4477,20 +4485,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930"
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cede45fcdfabdd6043b3592e83678e42ec69e930",
-                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
                 "shasum": ""
             },
             "require": {
@@ -4499,7 +4507,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4550,20 +4558,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "8ff431c517be11c78c48a39a66d37431e26a6bed"
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/8ff431c517be11c78c48a39a66d37431e26a6bed",
-                "reference": "8ff431c517be11c78c48a39a66d37431e26a6bed",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
                 "shasum": ""
             },
             "require": {
@@ -4572,7 +4580,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4626,20 +4634,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de"
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
-                "reference": "e70aa8b064c5b72d3df2abd5ab1e90464ad009de",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
                 "shasum": ""
             },
             "require": {
@@ -4648,7 +4656,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4706,7 +4714,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/process",
@@ -5364,16 +5372,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.6.7",
+            "version": "v3.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2065beda6cbe75e2603686907b2e45f6f3a5ad82"
+                "reference": "5e679f7616db829358341e2d5cccbd18773bdab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2065beda6cbe75e2603686907b2e45f6f3a5ad82",
-                "reference": "2065beda6cbe75e2603686907b2e45f6f3a5ad82",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/5e679f7616db829358341e2d5cccbd18773bdab8",
+                "reference": "5e679f7616db829358341e2d5cccbd18773bdab8",
                 "shasum": ""
             },
             "require": {
@@ -5384,7 +5392,7 @@
             "require-dev": {
                 "ext-filter": "*",
                 "ext-pcre": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.7.27 || ^6.5.6 || ^7.0"
+                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20"
             },
             "suggest": {
                 "ext-filter": "Required to use the boolean validator.",
@@ -5433,7 +5441,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-14T19:04:52+00:00"
+            "time": "2021-01-20T14:39:46+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -5754,16 +5762,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.9.1",
+            "version": "2.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "307fb34a5ab697461ec4c9db865b20ff2fd40771"
+                "reference": "df7933820090489623ce0be5e85c7e693638e536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/307fb34a5ab697461ec4c9db865b20ff2fd40771",
-                "reference": "307fb34a5ab697461ec4c9db865b20ff2fd40771",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/df7933820090489623ce0be5e85c7e693638e536",
+                "reference": "df7933820090489623ce0be5e85c7e693638e536",
                 "shasum": ""
             },
             "require": {
@@ -5811,7 +5819,13 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2020-11-01T12:00:00+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/denis-sokolov",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-01-24T12:00:00+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -6700,16 +6714,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.13",
+            "version": "8.5.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "8e86be391a58104ef86037ba8a846524528d784e"
+                "reference": "c25f79895d27b6ecd5abfa63de1606b786a461a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e86be391a58104ef86037ba8a846524528d784e",
-                "reference": "8e86be391a58104ef86037ba8a846524528d784e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c25f79895d27b6ecd5abfa63de1606b786a461a3",
+                "reference": "c25f79895d27b6ecd5abfa63de1606b786a461a3",
                 "shasum": ""
             },
             "require": {
@@ -6789,20 +6803,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-01T04:53:52+00:00"
+            "time": "2021-01-17T07:37:30+00:00"
         },
         {
             "name": "scrivo/highlight.php",
-            "version": "v9.18.1.5",
+            "version": "v9.18.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scrivo/highlight.php.git",
-                "reference": "fa75a865928a4a5d49e5e77faca6bd2f2410baaf"
+                "reference": "44a3d4136edb5ad8551590bf90f437db80b2d466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/fa75a865928a4a5d49e5e77faca6bd2f2410baaf",
-                "reference": "fa75a865928a4a5d49e5e77faca6bd2f2410baaf",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/44a3d4136edb5ad8551590bf90f437db80b2d466",
+                "reference": "44a3d4136edb5ad8551590bf90f437db80b2d466",
                 "shasum": ""
             },
             "require": {
@@ -6815,9 +6829,6 @@
                 "sabberworm/php-css-parser": "^8.3",
                 "symfony/finder": "^2.8|^3.4",
                 "symfony/var-dumper": "^2.8|^3.4"
-            },
-            "suggest": {
-                "ext-dom": "Needed to make use of the features in the utilities namespace"
             },
             "type": "library",
             "autoload": {
@@ -6864,7 +6875,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-22T06:07:40+00:00"
+            "time": "2020-12-22T19:20:29+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -7598,12 +7609,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
